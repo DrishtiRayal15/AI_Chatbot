@@ -1,0 +1,135 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "what's up", "yo", "hiya", "greetings", "hey there","hii"],
+      "responses": [
+        "Hey there! 👋 I'm ChatBuddy. How can I help you today?",
+        "Hello! Great to see you. What can I do for you?",
+        "Hi! I'm here and ready to chat. Ask me anything!"
+      ],
+      "quick_replies": ["Tell me a joke", "What can you do?", "What is AI?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "see you later", "talk to you later", "catch you later", "exit", "quit"],
+      "responses": [
+        "Goodbye! Have a wonderful day. 👋",
+        "See you soon! Feel free to come back anytime.",
+        "Take care! It was nice chatting with you."
+      ],
+      "quick_replies": ["Hi again", "Tell me a joke"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thx", "appreciate it", "thanks a lot", "much appreciated","thnx"],
+      "responses": [
+        "You're very welcome! 😊",
+        "Anytime! Happy to help.",
+        "No problem at all!"
+      ],
+      "quick_replies": ["What else can you do?"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are you", "what should i call you", "your name","tell me about yourself","who r u?"],
+      "responses": [
+        "I'm ChatBuddy, an AI-style chatbot built with Flask and Python! 🤖",
+        "You can call me ChatBuddy — built as an internship project."
+      ],
+      "quick_replies": ["Who made you?", "What can you do?"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["who made you", "who created you", "who built you", "who is your developer"],
+      "responses": [
+        "I was built as an internship project to show how chatbots understand and respond to text using Python and Flask!"
+      ],
+      "quick_replies": ["What is AI?", "Tell me a joke"]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you", "how are you doing", "how is it going", "how do you feel","wassup"],
+      "responses": [
+        "I'm just lines of code, but I'm running smoothly! 😄 How about you?",
+        "Doing great, thanks for asking! What about you?"
+      ],
+      "quick_replies": ["Tell me a joke", "What time is it?"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "what can you do", "help me", "your capabilities", "what do you know", "features","what otehr can you do?"],
+      "responses": [
+        "I can chat with you, tell jokes, tell you the time or date, explain what AI/NLP means, and reply to a bunch of predefined topics!"
+      ],
+      "quick_replies": ["Tell me a joke", "What time is it?", "What is AI?"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "make me laugh", "say something funny", "joke", "another joke"],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs! 🐛",
+        "Why did the developer go broke? Because he used up all his cache! 💸",
+        "I would tell you a UDP joke, but you might not get it.",
+        "There are 10 types of people: those who understand binary, and those who don't."
+      ],
+      "quick_replies": ["Another joke", "What is AI?"]
+    },
+    {
+      "tag": "ai",
+      "patterns": ["what is ai", "what is artificial intelligence", "what is ml","explain ai", "what is nlp", "what is machine learning", "define ai"],
+      "responses": [
+        "AI (Artificial Intelligence) is the simulation of human intelligence by machines. NLP is the branch that helps computers understand human language — which is what powers my replies!"
+      ],
+      "quick_replies": ["Who made you?", "Tell me a joke"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what time is it", "current time", "tell me the time","what is the time","tym"],
+      "responses": ["__TIME__"],
+      "quick_replies": ["What's today's date?"]
+    },
+    {
+      "tag": "date",
+      "patterns": ["what is the date today", "today's date", "current date", "what day is it"],
+      "responses": ["__DATE__"],
+      "quick_replies": ["What time is it?"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what is the weather", "how is the weather", "is it raining"],
+      "responses": [
+        "I don't have live weather access right now, but a weather app would give you real-time updates! 🌤️"
+      ],
+      "quick_replies": ["What time is it?"]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["you are smart", "you are awesome", "good job", "you are cool", "nice bot", "well done"],
+      "responses": [
+        "Aw, thank you! 😊 I do my best.",
+        "That means a lot — even for a chatbot!"
+      ],
+      "quick_replies": ["Tell me a joke"]
+    },
+     {
+      "tag": "yes",
+      "patterns": ["yess i am good", "yes i am fine", "yepp im fyn", "yess i m gud", "yes i am gud", "i am fyn"],
+      "responses": [
+        "nice to hear😊",
+        "good to hear about you"
+      ],
+      "quick_replies": ["Tell me a joke"]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand. Could you rephrase that? 🤔",
+        "Hmm, I don't have an answer for that yet, but I'm always learning!",
+        "That's a bit outside what I know. Try one of the suggestions below!"
+      ],
+      "quick_replies": ["What can you do?", "Tell me a joke", "What is AI?"]
+    }
+  ]
+}
